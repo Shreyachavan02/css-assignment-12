@@ -1,11 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Product Cards</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f7f7f7;
+        }
+
+        .card-container {
+            width: 80%;
+            margin: auto;
+        }
+
+        .card1 {
+            display: inline-block;
+            width: 270px;
+            background-color: rgb(158, 184, 204);
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px solid rgb(30, 4, 78);
+            margin: 10px;
+        }
+
+        .card2 {
+            display: inline-block;
+            width: 270px;
+            background-color: rgb(198, 212, 143);
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px solid black;
+            margin: 10px;
+        }
+
+        .card3 {
+            display: inline-block;
+            width: 270px;
+            background-color: rgb(142, 104, 163);
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px solid black;
+            margin: 10px;
+        }
+
+        .card4 {
+            display: inline-block;
+            width: 270px;
+            background-color: rgb(104, 128, 193);
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px solid black;
+            margin: 10px;
+        }
+
+        .card5 {
+            display: inline-block;
+            width: 270px;
+            background-color: rgb(121, 203, 149);
+            padding: 15px;
+            border-radius: 10px;
+            border: 2px solid black;
+            margin: 10px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .name {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .price {
+            color: rgb(8, 20, 8);
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .btn {
+            background-color: #ff5733;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            border: none;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background-color: #0067c7;
+        }
+
+        .heading {
+            font-family: Arial, sans-serif;
+        }
+    </style>
 </head>
+
 <body>
-    
+    <a href="./index.html">buttons</a>
+
+    <h2 class="heading">Product Cards</h2>
+
+    <div class="card-container">
+        <div class="card1">
+            <img src="./sunglass.webp" height="220px" width="250px" alt="Sun glasses">
+            <p class="name">Sun glasses</p>
+            <p>Rich Club
+                UV Protection Retro Square Sunglasses (54) (For Men & Women, Black)</p>
+            <p class="price"><del>₹3000</del>₹2000</p>
+            <button class="btn">Buy Now</button>
+        </div>
+
+        <div class="card2">
+            <img src="./smartwatch.webp" height="220px" width="250px" alt="Smart watch">
+            <p class="name">Smart watch</p>
+            <p>boAt Wave Fury with 1.83'' HD Display, Bluetooth Calling (Blue Strap, Free Size)</p>
+            <p class="price"><del>₹4000</del>₹1,399</p>
+            <button class="btn">Buy Now</button>
+        </div>
+
+        <div class="card3">
+            <img src="./earbud.webp" height="220px" width="250px" alt="ear buds">
+            <p class="name">ear buds</p>
+            <p>boAt Airdopes 131 with upto 60 hours and ASAP Charge Bluetooth (Cherry Blossom, True Wireless)</p>
+            <p class="price">₹2000 10%off</p>
+            <button class="btn">Buy Now</button>
+        </div>
+
+        <div class="card4">
+            <img src="./headset.webp" height="220px" width="250px" alt="Headset">
+            <p class="name">Headset</p>
+            <p>boAt Rockerz 450 w/ 40mm Drivers, 15 HRS Playback, Soft Padded Earcups Bluetooth (Aqua Blue, On the Ear)
+            </p>
+            <p class="price"><del>₹2000</del>₹1800</p>
+            <button class="btn">Buy Now</button>
+        </div>
+
+        <div class="card5">
+            <img src="./powerbank.webp" height="220px" width="250px" alt="card5">
+            <p class="name">Power bank</p>
+            <p>boAt 20000 mAh 22.5 W Power Bank (Steel Blue, Lithium Polymer, Fast Charging, Quick Charge 3.0, Power
+                Delivery 3.0 for Mobile, Tablet)</p>
+            <p class="price"><del>3500</del>₹2500</p>
+            <button class="btn">Buy Now</button>
+        </div>
+    </div>
+
 </body>
+
 </html>
